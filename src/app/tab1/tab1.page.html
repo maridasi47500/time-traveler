@@ -14,4 +14,31 @@
   </ion-header>
 
   <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div >
+	  hey
+  </div>
+   <div style="overflow:hidden;"><div id="celestial-map"></div></div>
+  <div id="celestial-form"></div>
 </ion-content>
+  <script>
+    function reload_js(src) {
+        $('script[src="' + src + '"]').remove();
+        $('<script>').attr('src', src).appendTo('head');
+    }
+reload_js('/assets/lib/d4.min.js');
+reload_js('/assets/lib/d3.geo.projection.min.js')
+reload_js('/assets/lib/celestial.min.js')
+reload_js('/assets/lib/celestial.css')
+</script>
+
+  <script type="text/javascript">
+
+Celestial.display({
+  location: true,
+  projection: "airy",
+  datapath: "../data/",
+  planets:  { show: true }
+});
+
+  </script>
+

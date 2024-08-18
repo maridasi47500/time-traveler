@@ -22,10 +22,11 @@
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
     "@ionic/angular": "^8.0.0",
+    "@types/d3": "^7.4.3",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.2"
+    "zone.js": "^0.14.10"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.0.0",
@@ -39,8 +40,10 @@
     "@angular/language-service": "^18.0.0",
     "@ionic/angular-toolkit": "^11.0.1",
     "@types/jasmine": "~5.1.0",
+    "@types/jquery": "^3.5.30",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "d3-celestial": "^0.7.35",
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^48.2.1",
